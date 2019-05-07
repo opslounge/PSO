@@ -1,0 +1,21 @@
+namespace:
+  pure: demo
+arrays:
+  FlashArrays:
+    - MgmtEndPoint: "10.226.224.110"
+      APIToken: "aa009fd2-7686-7d48-8698-26b7eb2ae841"
+      Labels:
+        loc.newstack/rack: "38"
+        failure-domain.beta.kubernetes.io/zone: "WEST"
+    - MgmtEndPoint: "10.226.224.132"
+      APIToken: "84f1db69-0d00-79fe-40ef-54088761e28e"
+      Labels:
+        loc.newstack/rack: "40"
+        failure-domain.beta.kubernetes.io/zone: "EAST"
+  FlashBlades:
+    - MgmtEndPoint: "10.226.224.182"
+      NFSEndPoint: "10.226.224.247"
+      APIToken: "T-62824b9d-edd7-41ca-b218-c754aba6356c"
+      Labels:
+        loc.newstack/rack: "38"
+        failure-domain.beta.kubernetes.io/zone: "WEST"

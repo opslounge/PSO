@@ -1,0 +1,13 @@
+namespace:  
+  pure: demo
+
+arrays:
+  FlashArrays:
+    - MgmtEndPoint: "10.226.224.110"
+      APIToken: "aa009fd2-7686-7d48-8698-26b7eb2ae841"
+    - MgmtEndPoint: "10.226.224.132"
+      APIToken: "84f1db69-0d00-79fe-40ef-54088761e28e"
+  FlashBlades:
+    - MgmtEndPoint: "10.226.224.180"
+      APIToken: "T-62824b9d-edd7-41ca-b218-c754aba6356c"
+      NFSEndPoint: "10.226.224.247"
