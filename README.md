@@ -1,22 +1,22 @@
 
-#CONTAINER DEMO RUNBOOK
+**CONTAINER DEMO RUNBOOK**
 
-##Environment
+##**Environment**
 
-*compute: 10.226.224.238 uname:ubuntu/passwd:pureuser
+**compute:** 10.226.224.238 uname:ubuntu/passwd:pureuser
 
-*storage: 10.226.224.180/flashblade
+**storage:** 10.226.224.180/flashblade
 
-*storage: 10.226.224.110/flasharray (iscsi)
+**storage:** 10.226.224.110/flasharray (iscsi)
 
-*storage: 10.226.224.132/flasharray (iscsi)
+**storage:** 10.226.224.132/flasharray (iscsi)
 
 
 Use this playbook to demo PSO
 This will install PSO on a kubernetes cluster. 
 The demo environment uses kubernetes 1.14 and includes helm and tiller.  
 
-##Tasks: 
+##**Tasks:** 
 
 *Install PSO from scratch using Helm
 
