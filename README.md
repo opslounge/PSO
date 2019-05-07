@@ -1,8 +1,5 @@
-#######################################################################################
 #
 #CONTAINER DEMO RUNBOOK
-#
-#######################################################################################
 #
 ##Environment
 #
@@ -11,13 +8,12 @@
 *storage: 10.226.224.110/flasharray (iscsi)
 *storage: 10.226.224.132/flasharray (iscsi)
 
-#######################################################################################
 
 Use this playbook to demo PSO
 This will install PSO on a kubernetes cluster. 
 The demo environment uses kubernetes 1.14 and includes helm and tiller.  
-#
-Tasks: 
+
+##Tasks: 
 *Install PSO from scratch using Helm
 *Create a container with persistant storage 
 *Upgrade the instance of PSO to add a second array. 
