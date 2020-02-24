@@ -29,20 +29,12 @@ helm repo update
 sleep 15
 sudo helm upgrade pso pure/pure-k8s-plugin -f 2pure.yaml
 
-kubectl create -f app2
-kubectl get pvc
 
 helm init
 helm repo add pure https://purestorage.github.io/helm-charts
 helm repo update 
 sudo helm upgrade pso pure/pure-k8s-plugin -f 3pure.yaml
 
-kubectl create -f app-labels
-kubcetl get pvc
-
-kubectl delete -f app
-kubectl delete -f app2
-kubectl delete -f app-labels
 
 helm delete --purge pso
 
