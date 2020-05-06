@@ -19,7 +19,7 @@ metadata:
   labels:
     app: wordpress
   annotations: 
-    volume.beta.kubernetes.io/storage-class: pure-block
+    volume.beta.kubernetes.io/storage-class: pure-file
 spec:
   accessModes:
     - ReadWriteOnce
